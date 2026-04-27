@@ -1,0 +1,1592 @@
+@font-face {
+    font-family: "Luckiest Guy";
+    src: url("../fonts/LuckiestGuy-Regular.ttf") format("truetype");
+}
+
+
+@font-face {
+    font-family: "Inter semi bold";
+    src: url("../fonts/inter_semi_bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Inter bold";
+    src: url("../fonts/inter_bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Inter medium";
+    src: url("../fonts/inter_medium.ttf") format("truetype");
+}
+
+
+/*GLOBAL (format PC et Téléphone*/
+/*GENERAL*/
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+img {
+    object-fit: cover;
+}
+
+h1 {
+    font-family: "Luckiest Guy";
+    color: #380000;
+}
+
+h3 {
+    font-family: "Luckiest Guy";
+    color: black;
+}
+
+p {
+    font-family: "Inter medium";
+}
+
+.gras {
+    font-family: "Inter bold";
+}
+
+/*PAGE ACCEUIL*/
+
+#page_acceuil {
+    background-image: url("../img/2eBB_acceueil.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left center;
+    overflow: scroll;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    z-index: 1;
+    overflow-wrap: break-word;
+}
+
+#page_acceuil_bloc {
+    font-family: "inter bold";
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: auto;
+    position: absolute;
+}
+
+#page_acceuil_sous_bloc {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+#bienvenue {
+    font-family: "Luckiest Guy";
+    color: white;
+    text-align: center;
+}
+
+.titre_icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 25px;
+}
+
+/*NAVIGATION*/
+
+#bloc_1_nav_icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+nav {
+    text-align: center;
+    position: fixed;
+    overflow: scroll;
+    background-color: #1B1B1B;
+    z-index: 2;
+}
+
+#bloc_1_nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#bloc_2_nav {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50%;
+    align-items: center;
+    margin: 3px;
+}
+
+.section_nav {
+    width: 70%;
+    max-width: 225px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+/*FOOTER*/
+
+footer {
+    margin-top: 15%;
+    margin-bottom: 5%;
+    color: white;
+    text-decoration: none;
+}
+
+footer a {
+    color: rgb(206, 206, 206);
+}
+
+footer a:hover {
+    color: white;
+}
+
+/*PAGE PARCOURS*/
+
+#bouton_cv {
+    width: 350px;
+    height: 110px;
+    background-color: #4E4E4E;
+    border-radius: 15px;
+    display: flex;
+    text-decoration: none;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#bouton_cv h1 {
+    color: white;
+    font-size: 5.7em;
+    margin: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*PAGE PROJETS*/
+
+#box_projet {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+}
+
+/*PAGE VEILLE*/
+
+#box_veille {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+/*PAGE GUTENWEB & PAGE GMOD*/
+
+#page_gutenweb .titre_icons {
+    justify-content: center;
+}
+
+#page_gmod .titre_icons {
+    justify-content: center;
+}
+
+/*PAGE AP2, AP3, AP4*/
+
+#page_ap2 .titre_icons,
+#page_ap3 .titre_icons,
+#page_ap4 .titre_icons {
+    justify-content: center;
+}
+
+
+
+
+/* PARCOURS PRO IMAGE*/
+#parcours_pro {
+    width: 100%;
+    color: white;
+
+}
+
+
+
+
+#parcours_pro h1 {
+    margin: 0px;
+    padding: 0px;
+    color: white;
+
+}
+
+#barre_flex {
+    display: flex;
+    justify-content: center;
+}
+
+#barre_centre {
+    position: absolute;
+    border: 0.2px solid black;
+    width: 0px;
+}
+
+.section_parcours_pro_1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 75px;
+
+}
+
+.section_parcours_pro_1_par {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+
+
+
+.section_parcours_pro_par_sous_1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: black;
+    border-radius: 10px;
+
+}
+
+.section_parcours_pro_par_sous_2 {
+    background-color: black;
+    border-radius: 10px;
+
+
+}
+
+.section_parcours_pro_centre_1 {
+    background-color: black;
+    border-radius: 100%;
+}
+
+.section_parcours_pro_centre_2 {
+    background-color: black;
+    border-radius: 100%;
+}
+
+.parcours_pro_img img {
+    object-fit: contain;
+
+
+}
+
+.parcours_pro_img {
+    object-fit: contain;
+
+
+}
+
+
+/* MENTION LEGALE*/
+
+#page_mention_legale {
+    text-align: center;
+    margin-left: 24%;
+    margin-right: 7%;
+}
+
+
+#page_mention_legale h1 {
+    padding: 50px;
+    margin-top: 0px;
+}
+
+#mention_legale_flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    min-height: 400px;
+    gap: 50px;
+
+}
+
+#mention_legale_flex p {
+    margin: 0px;
+    margin-left: 5px;
+    text-align: left;
+    color: white;
+
+}
+
+#mention_legale_flex h1 {
+    padding: 0px;
+    margin: 0px;
+    color: white;
+
+}
+
+#mention_legale_editeur {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #1B1B1B;
+    border-radius: 15px;
+    gap: 30px;
+    width: 600px;
+}
+
+
+
+#mention_legale_hebergeur {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #1B1B1B;
+    border-radius: 15px;
+    gap: 30px;
+    width: 600px;
+}
+
+#mention_legale_propriete h1,
+#mention_legale_propriete p {
+    color: white;
+    padding: 0px;
+    padding-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+
+
+
+}
+
+#mention_legale_propriete {
+    background-color: #1B1B1B;
+    border-radius: 15px;
+    margin-top: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-height: 800px) {
+    nav::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    h1 {
+        font-size: 3em;
+    }
+
+    h3 {
+        font-size: 2em;
+    }
+
+    p {
+        font-size: 1.7em;
+    }
+
+
+    /*IMG NAVIGATION*/
+
+    #logo_portfolio {
+        width: 322px;
+        height: 346px;
+        max-width: 100%;
+        height: auto;
+
+    }
+
+    #bloc_1_nav_icons img {
+        width: 30px;
+        height: 30px;
+
+    }
+
+    #bloc_2_nav img {
+        width: 25px;
+        height: 25px;
+
+    }
+
+    /*NAVIGATION*/
+
+    nav {
+        width: 10%;
+        height: 100%;
+
+
+    }
+
+    /* BLOC 1*/
+
+
+    #bloc_1_nav {
+        margin-bottom: 10%;
+    }
+
+    #bloc_1_nav_icons {
+        width: 45%;
+        max-width: 150px;
+        min-width: 110px;
+
+
+    }
+
+    #bloc_1_nav h1 {
+        margin: 3px;
+        font-family: "Luckiest Guy";
+        color: white;
+        font-size: 1.4em;
+    }
+
+
+    /*BLOC 2*/
+
+
+    .section_nav {
+        height: 2.5em;
+    }
+
+    .section_nav a,
+    .section_nav img {
+
+        font-family: "Luckiest Guy";
+        color: rgb(206, 206, 206);
+        font-size: 1em;
+        text-decoration: none;
+        padding-top: 3px;
+
+    }
+
+    .section_nav a:hover,
+    .section_nav img:hover {
+
+        color: white;
+    }
+
+    .section_nav img {
+        margin-right: 7px;
+    }
+
+    /*PAGE ACCEUIL*/
+
+    #page_acceuil {
+        width: 83%;
+        height: 1080px;
+        margin-left: 17%;
+    }
+
+    #page_acceuil img {
+        width: 193px;
+        height: 216px;
+
+
+    }
+
+    #page_acceuil_bloc {
+        font-size: 5em;
+        top: 3.5em;
+        left: 20%;
+        height: 125px;
+
+    }
+
+    #sous_titre_page_accueil {
+        font-size: 0.55em;
+
+    }
+
+
+    #bienvenue {
+        margin-top: 18em;
+        font-size: 3em;
+    }
+
+
+    /*PAGE PROFIL*/
+
+
+    #page_profil {
+        margin-top: 100px;
+        margin-right: 7%;
+        margin-left: 24%;
+
+    }
+
+
+    #page_profil .icons {
+        width: 50px;
+        height: 50px;
+        margin-left: 7px;
+    }
+
+
+    /*PAGE PARCOURS*/
+
+
+
+    #page_parcours {
+        text-align: center;
+        margin-top: 200px;
+        margin-left: 24%;
+        margin-right: 7%;
+
+
+
+
+    }
+
+    #page_parcours .titre_icons {
+        justify-content: center;
+        margin-top: 200px;
+        margin-bottom: 15px;
+    }
+
+    #page_parcours .icons {
+        width: 50px;
+        height: 50px;
+        margin-left: 7px;
+    }
+
+
+    #parcours_scolaire img {
+        width: 100%;
+        max-width: 1024px;
+        height: auto;
+    }
+
+
+
+    #bouton_cv {
+        margin-top: 100px;
+    }
+
+    /*PAGE PROJETS*/
+
+
+    #page_projet {
+        margin-top: 200px;
+
+    }
+
+    #page_projet .titre_projet h1 {
+        color: black;
+        margin-top: 50px;
+
+    }
+
+    #page_projet img {
+        width: 300px;
+        height: 300px;
+        object-fit: contain;
+
+
+    }
+
+    #box_projet {
+        width: 80%;
+    }
+
+    /*PAGE VEILLE*/
+
+
+    #page_veille {
+
+        margin-top: 200px;
+
+
+    }
+
+    #page_veille h2 {
+        margin-top: 50px;
+        overflow-wrap: break-word;
+    }
+
+    #page_veille img {
+        width: 300px;
+        height: 300px;
+
+    }
+
+    #box_veille {
+        width: 100%;
+    }
+
+    #box_veille p {
+        width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+
+
+
+    }
+
+    /*PAGE GUTENWEB ET GMOD*/
+
+
+    #box_retour {
+        display: flex;
+    }
+
+    #retour img {
+        display: none;
+    }
+
+    #retour h2 {
+        display: none;
+    }
+
+    /*PAGE GUTENWEB*/
+
+
+    #page_gutenweb {
+        text-align: center;
+        margin-left: 24%;
+        margin-right: 7%;
+    }
+
+    #page_gutenweb img {
+        width: 100%;
+        height: auto;
+        max-width: 1000px;
+    }
+
+    #page_gutenweb #last {
+        width: 500px;
+        height: 369px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+
+
+    }
+
+
+    #page_gutenweb p {
+        max-width: 1000px;
+        margin: auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    /*PAGE GMOD*/
+
+
+
+
+    #page_gmod {
+        text-align: center;
+        margin-left: 24%;
+        margin-right: 7%;
+    }
+
+    #page_gmod #opals_project_1 {
+        width: 100%;
+        height: auto;
+        max-width: 900px;
+
+
+    }
+
+    #page_gmod p {
+        max-width: 1200px;
+        margin: auto;
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+
+    #page_gmod #opals_project_2 {
+        width: 100%;
+        height: auto;
+        max-width: 1000px;
+        margin-top: 75px;
+
+    }
+
+    #page_gmod #opals_project_3 {
+        width: 100%;
+        height: auto;
+        max-width: 680px;
+        margin-top: 75px;
+
+
+    }
+
+    #page_gmod #opals_project_4 {
+        width: 100%;
+        height: auto;
+        max-width: 1108px;
+        margin-top: 75px;
+        margin-bottom: 50px;
+
+
+    }
+
+
+
+
+
+    /* PAGES AP2 / AP3 / AP4 */
+
+    #page_ap2,
+    #page_ap3,
+    #page_ap4 {
+        text-align: center;
+        margin-left: 24%;
+        margin-right: 7%;
+        margin-top: 50px;
+    }
+
+    #page_ap2 img,
+    #page_ap3 img,
+    #page_ap4 img {
+        width: 100%;
+        height: auto;
+        max-width: 1000px;
+    }
+
+    #page_ap2 p,
+    #page_ap3 p,
+    #page_ap4 p {
+        max-width: 1000px;
+        margin: auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    #box_boutons_ap3 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 30px;
+        flex-wrap: wrap;
+        margin-top: 20px;
+        margin-bottom: 60px;
+    }
+
+    .bouton_doc {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #4E4E4E;
+        border-radius: 15px;
+        text-decoration: none;
+        padding: 0 30px;
+        height: 90px;
+        min-width: 250px;
+        transition: background-color 0.2s ease;
+    }
+
+    .bouton_doc:hover {
+        background-color: #6a6a6a;
+    }
+
+    .bouton_doc h1 {
+        color: white;
+        font-size: 1.4em;
+        margin: 0;
+    }
+
+    /* PARCOURS PRO IMAGE*/
+    #parcours_pro {
+        height: 2000px;
+
+    }
+
+
+
+
+    #parcours_pro p {
+        font-size: 1.2em;
+    }
+
+    #parcours_pro h1 {
+        font-size: 2em;
+
+    }
+
+
+
+    #barre_centre {
+        height: 1900px;
+    }
+
+    .section_parcours_pro_1_par {
+        height: 325px;
+        width: 375px;
+    }
+
+
+
+
+    .section_parcours_pro_par_sous_1 {
+        height: 50px;
+        width: 375px;
+
+    }
+
+    .section_parcours_pro_par_sous_2 {
+        height: 125px;
+        width: 375px;
+    }
+
+    .section_parcours_pro_centre_1 {
+        height: 50px;
+        width: 50px;
+        margin-left: 25px;
+    }
+
+    .section_parcours_pro_centre_2 {
+        height: 50px;
+        width: 50px;
+        margin-right: 25px;
+    }
+
+    .parcours_pro_img {
+        max-height: 350px;
+        max-width: 350px;
+
+    }
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+@media screen and (min-width: 1190px) {
+
+    nav {
+        display: inline;
+        width: 17%;
+        min-width: 200px;
+    }
+
+
+    #sidebar-active {
+        display: none;
+
+    }
+
+    #sidebar_active_open img {
+        display: none;
+
+    }
+
+    #sidebar_active_close img {
+        display: none;
+
+    }
+}
+
+
+
+@media screen and (min-width: 600px) and (max-width: 1190px) {
+
+    #sidebar-active:checked~nav {
+        width: 50%;
+        transition: all 1s;
+    }
+
+    #sidebar-active:not(:checked)~nav {
+        width: 0px;
+        transition: all 1s;
+
+    }
+
+    #sidebar-active:checked~#sidebar_active_open {
+        opacity: 0;
+
+    }
+
+    #sidebar-active:not(:checked)~#sidebar_active_close {
+        opacity: 0;
+
+    }
+
+
+
+
+    #sidebar-active {
+        display: none;
+
+    }
+
+    #sidebar_active_open img {
+        opacity: 1;
+        position: fixed;
+        width: 25px;
+        height: 25px;
+        top: 20px;
+        right: 20px;
+    }
+
+
+    #sidebar_active_close img {
+        position: fixed;
+        width: 25px;
+        height: 25px;
+        top: 20px;
+        right: 20px;
+    }
+
+
+
+    #page_acceuil {
+        width: 100%;
+        height: 1080px;
+        margin-left: 0%;
+    }
+
+
+    #page_acceuil_bloc {
+        left: 5%;
+    }
+
+
+    #page_profil {
+        margin-left: 7%;
+
+    }
+
+    #page_parcours {
+        margin-left: 7%;
+
+
+
+    }
+
+    /* PARCOURS PRO IMAGE*/
+    #parcours_pro {
+        height: 1500px;
+
+    }
+
+
+
+
+    #parcours_pro p {
+        font-size: 0.8em;
+    }
+
+    #parcours_pro h1 {
+        font-size: 1em;
+
+    }
+
+
+    #barre_centre {
+        height: 1475px;
+    }
+
+    .section_parcours_pro_par_sous_1 {
+        height: 40px;
+        width: 225px;
+
+    }
+
+    .section_parcours_pro_par_sous_2 {
+        height: 100px;
+        width: 225px;
+    }
+
+    .section_parcours_pro_centre_1 {
+        height: 50px;
+        width: 50px;
+        margin-left: 50px;
+    }
+
+    .section_parcours_pro_centre_2 {
+        height: 50px;
+        width: 50px;
+        margin-right: 50px;
+    }
+
+    .parcours_pro_img {
+        max-height: auto;
+        max-width: 175px;
+
+
+    }
+
+
+    #page_mention_legale {
+        margin-left: 7%;
+    }
+
+    #page_gutenweb {
+        margin-left: 7%;
+    }
+
+    #page_gmod {
+        margin-left: 7%;
+    }
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+
+
+
+
+    h1 {
+        font-size: 1.6em;
+    }
+
+    h3 {
+        font-size: 1.2em;
+    }
+
+    p {
+        font-size: 1.1em;
+    }
+
+
+    /*IMG NAVIGATION*/
+
+    #logo_portfolio {
+        width: 200px;
+        height: 172px;
+
+    }
+
+    #bloc_1_nav_icons img {
+        width: 25px;
+        height: 25px;
+
+    }
+
+    #bloc_2_nav img {
+        width: 20px;
+        height: 20px;
+
+    }
+
+
+
+    /*NAVIGATION*/
+
+    nav {
+        width: 10%;
+        height: 100%;
+
+
+    }
+
+
+    /* BLOC 1*/
+
+
+    #bloc_1_nav {
+        margin-top: 5%;
+        margin-bottom: 10%;
+
+
+    }
+
+    #bloc_1_nav_icons {
+        width: 50%;
+        max-width: 100px;
+
+
+    }
+
+    #bloc_1_nav h1 {
+        margin: 3px;
+        font-family: "Luckiest Guy";
+        color: white;
+        font-size: 1.4em;
+    }
+
+    #sidebar-active:checked~nav {
+        width: 50%;
+        transition: all 1s;
+
+
+    }
+
+    #sidebar-active:not(:checked)~nav {
+        width: 0px;
+        transition: all 1s;
+
+    }
+
+
+    #sidebar-active:checked~#sidebar_active_open {
+        opacity: 0;
+
+    }
+
+    #sidebar-active:not(:checked)~#sidebar_active_close {
+        opacity: 0;
+
+    }
+
+
+
+
+    #sidebar-active {
+        display: none;
+
+    }
+
+    #sidebar_active_open img {
+        opacity: 1;
+        position: fixed;
+        width: 25px;
+        height: 25px;
+        top: 20px;
+        right: 20px;
+    }
+
+
+    #sidebar_active_close img {
+        position: fixed;
+        width: 25px;
+        height: 25px;
+        top: 20px;
+        right: 20px;
+    }
+
+
+
+
+
+    /*BLOC 2*/
+
+
+    .section_nav {
+        height: 2em;
+    }
+
+    .section_nav a,
+    .section_nav img {
+
+        font-family: "Luckiest Guy";
+        color: rgb(206, 206, 206);
+        font-size: 0.8em;
+        text-decoration: none;
+
+    }
+
+    .section_nav a:hover,
+    .section_nav img:hover {
+
+        color: white;
+    }
+
+    .section_nav img {
+        margin-right: 3px;
+    }
+
+
+
+
+
+
+    /*PAGE ACCEUIL*/
+
+    #page_acceuil {
+        width: 100%;
+        height: 600px;
+
+
+    }
+
+    #page_acceuil img {
+        width: 118px;
+        height: 125px;
+
+
+    }
+
+    #page_acceuil_bloc {
+        font-size: 2em;
+        top: 3.5em;
+        left: 5%;
+        height: 125px;
+    }
+
+
+    #bienvenue {
+        margin-top: 19em;
+        font-size: 1.6em;
+
+    }
+
+    /*PAGE PROFIL*/
+
+
+    #page_profil {
+        margin-top: 100px;
+        margin-left: 7%;
+        margin-right: 7%;
+    }
+
+
+    #page_profil .icons {
+        width: 25px;
+        height: 25px;
+
+        margin-left: 7px;
+    }
+
+
+    #i_mili {
+        position: absolute;
+        left: 160px;
+        margin-top: 30px;
+    }
+
+    /*PAGE PARCOURS*/
+
+
+
+    #page_parcours {
+        text-align: center;
+        margin-top: 200px;
+
+    }
+
+    #page_parcours .titre_icons {
+        justify-content: center;
+        margin-top: 50px;
+        margin-bottom: 15px;
+    }
+
+    #page_parcours .icons {
+        width: 25px;
+        height: 25px;
+
+        margin-left: 7px;
+    }
+
+
+    #parcours_scolaire img {
+        width: 375px;
+        height: 282px;
+
+    }
+
+    #bouton_cv {
+        margin-top: 50px;
+    }
+
+
+    /*PAGE PROJETS*/
+
+
+    #page_projet {
+        margin-left: 7%;
+        margin-right: 7%;
+        margin-top: 200px;
+    }
+
+    #page_projet .titre_projet h1 {
+        color: black;
+        margin-top: 50px;
+    }
+
+    #page_projet img {
+        width: 300px;
+        height: 300px;
+
+
+    }
+
+    #box_projet {
+        width: 60%;
+    }
+
+    /*PAGE VEILLE*/
+
+
+    #page_veille {
+        margin-left: 7%;
+        margin-right: 7%;
+        margin-top: 200px;
+
+    }
+
+    #page_veille h2 {
+        margin-top: 50px;
+
+    }
+
+    #page_veille img {
+        width: 300px;
+        height: 300px;
+
+    }
+
+    #box_veille {
+        width: 80%;
+    }
+
+    #box_veille p {
+        width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+
+
+
+    }
+
+    /*PAGE GUTENWEB, GMOD ET MENTIONS LEGALES*/
+
+
+    #box_retour {
+        display: flex;
+        flex-direction: row;
+
+
+    }
+
+    #retour img {
+        width: 30px;
+        height: 30px;
+    }
+
+    #retour h2 {
+        color: #646464;
+        font-family: "Luckiest Guy";
+        font-size: 1.7em;
+        margin: 0px;
+        margin-left: 5px;
+
+
+    }
+
+    /*PAGE GUTENWEB*/
+
+
+
+
+    #page_gutenweb {
+        text-align: center;
+        margin-left: 6%;
+        margin-right: 6%;
+    }
+
+    #page_gutenweb img {
+        width: 350px;
+        height: 145px;
+
+
+    }
+
+    #page_gutenweb #last {
+        width: 325px;
+        height: 240px;
+        margin-top: 25px;
+
+
+    }
+
+
+    #page_gutenweb p {
+        margin-top: 50px;
+    }
+
+    /*PAGE GMOD*/
+
+
+    #page_gmod {
+        text-align: center;
+        margin-left: 7%;
+        margin-right: 7%;
+    }
+
+    #page_gmod #opals_project_1 {
+        width: 340px;
+        height: 197px;
+
+
+    }
+
+    #page_gmod p {
+        margin-top: 50px;
+    }
+
+    #page_gmod #opals_project_2 {
+        width: 340px;
+        height: 168px;
+
+        margin-top: 50px;
+
+    }
+
+    #page_gmod #opals_project_3 {
+        width: 340px;
+        height: 79px;
+        margin-top: 50px;
+
+
+
+    }
+
+    #page_gmod #opals_project_4 {
+        width: 340px;
+        height: 11px;
+
+        margin-top: 50px;
+
+
+    }
+
+    /* PARCOURS PRO IMAGE*/
+    #parcours_pro {
+        height: 1400px;
+
+    }
+
+
+
+
+    #parcours_pro p {
+        font-size: 0.8em;
+    }
+
+    #parcours_pro h1 {
+        font-size: 1em;
+
+    }
+
+
+
+    #barre_centre {
+        height: 1360px;
+    }
+
+
+
+
+
+
+    .section_parcours_pro_par_sous_1 {
+        height: 35px;
+        width: 150px;
+
+
+    }
+
+    .section_parcours_pro_par_sous_2 {
+        height: 100px;
+        width: 150px;
+    }
+
+    .section_parcours_pro_centre_1 {
+        height: 50px;
+        width: 50px;
+    }
+
+    .section_parcours_pro_centre_2 {
+        height: 50px;
+        width: 50px;
+    }
+
+    .parcours_pro_img img {
+        max-height: 150px;
+        max-width: 150px;
+
+
+    }
+
+    /* MENTION LEGALE*/
+
+    #page_mention_legale {
+        text-align: center;
+        margin-left: 6%;
+        margin-right: 6%;
+    }
+
+
+
+
+}

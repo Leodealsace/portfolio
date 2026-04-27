@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./assets/css/style.css" type="text/css">
+
+    <title>PORTFOLIO BIHLER LEO</title>
+</head>
+
+
+<div>
+    <input type="checkbox" id="sidebar-active" class="open-sidebar-button">
+
+    <label for="sidebar-active" id="sidebar_active_open">
+        <img src="./assets/img/i_menu.png">
+    </label>
+
+    <label for="sidebar-active" id="sidebar_active_close">
+        <img src="./assets/img/i_croix.png">
+    </label>
+
+
+    <nav>
+
+        <img src="./assets/img/logo_porfolio.png" id="logo_portfolio">
+        <div id="bloc_1_nav">
+            <h1>Léo BIHLER</h1>
+            <div id="bloc_1_nav_icons">
+                <a href="https://fr.linkedin.com/in/léo-bihler"><img src="./assets/img/i_linkedin.png"></a>
+                <a href="https://api.whatsapp.com/send/?phone=33642163189&text&type=phone_number&app_absent=0"><img
+                        src="./assets/img/i_whatsapp.png"></a>
+                <a href="mailto:bihler.leo2@gmail.com"><img src="./assets/img/i_mail.png"></a>
+            </div>
+        </div>
+        <div id="bloc_2_nav">
+            <div class="section_nav">
+                <a href="./index.html#page_accueil"><img src="./assets/img/i_acceuil.png"></a>
+                <a href="./index.html#page_accueil">
+                    <h2>Acceuil</h2>
+                </a>
+
+            </div>
+
+            <div class="section_nav">
+                <a href="./index.html#page_profil"><img src="./assets/img/i_profil.png"></a>
+                <a href="./index.html#page_profil">
+                    <h2>Profil</h2>
+                </a>
+            </div>
+
+            <div class="section_nav">
+                <a href="./index.html#page_parcours"><img src="./assets/img/i_etude.png"></a>
+                <a href="./index.html#page_parcours">
+                    <h2>Parcours</h2>
+                </a>
+            </div>
+
+            <div class="section_nav">
+                <a href="./index.html#page_projet"><img src="./assets/img/i_projet.png"></a>
+                <a href="./index.html#page_projet">
+                    <h2>Projets</h2>
+                </a>
+            </div>
+
+            <div class="section_nav">
+                <a href="./index.html#page_veille"><img src="./assets/img/i_veille.png"></a>
+                <a href="./index.html#page_veille">
+                    <h2>Veilles</h2>
+                </a>
+            </div>
+        </div>
+
+        <footer>
+            © 2024 <br>
+            Tous droits réservé <br>
+            <a href="./mention_legal.html">
+                Mentions Légales
+            </a>
+
+
+
+        </footer>
+
+    </nav>
+</div>
+
+<body>
+
+    <div id="retour">
+        <a href="./index.html#page_projet" style="text-decoration:none">
+            <div id="box_retour">
+                <img src="./assets/img/i_retour.png">
+                <h2>Retour</h2>
+            </div>
+        </a>
+    </div>
+
+    <div id="page_ap3">
+        <div class="titre_icons">
+            <h1>AP3</h1>
+        </div>
+
+        <p>
+            Le projet AP3 consiste à concevoir et déployer un <span class="gras">système d'information complet, sécurisé et hautement disponible</span> pour un centre de formation, avec une <span class="gras">interconnexion entre deux sites distants</span> (Strasbourg et Mulhouse). L'objectif principal était de garantir la <span class="gras">continuité de service</span>, la <span class="gras">sécurité des données</span> et le partage des ressources entre les sites.
+            <br><br>
+            Dans ce cadre, j'ai d'abord réalisé une <span class="gras">étude du cahier des charges</span> afin de proposer une architecture adaptée, incluant un <span class="gras">schéma réseau</span>, un planning prévisionnel et une estimation des coûts. J'ai ensuite mis en place l'<span class="gras">infrastructure réseau</span> en configurant des <span class="gras">pare-feu pfSense</span> sur chaque site et en établissant un <span class="gras">VPN site à site sécurisé en IPsec</span>, permettant la communication chiffrée entre les deux réseaux.
+            <br><br>
+            Côté serveurs, j'ai déployé plusieurs machines sous <span class="gras">Windows Server 2022</span> afin d'assurer les services essentiels : <span class="gras">Active Directory</span> pour l'authentification centralisée (SSO), <span class="gras">DNS</span> pour la résolution de noms et <span class="gras">DHCP</span> pour l'attribution automatique des adresses IP, avec des mécanismes de <span class="gras">redondance</span> pour garantir la haute disponibilité.
+            <br><br>
+            Pour la gestion des données, j'ai mis en place une solution de stockage avec <span class="gras">TrueNAS</span>, utilisée comme <span class="gras">SAN via iSCSI</span>. Cela a permis d'héberger les données et les sauvegardes. J'ai également configuré <span class="gras">DFS et DFSR</span> pour assurer la réplication des fichiers entre les deux sites, ainsi que des <span class="gras">partages réseau sécurisés</span> avec gestion des droits utilisateurs. Des fonctionnalités comme les <span class="gras">Shadow Copies</span> ont été activées pour permettre la restauration rapide des fichiers.
+            <br><br>
+            En complément, j'ai mis en œuvre une <span class="gras">stratégie de sauvegarde</span> avec <span class="gras">Windows Server Backup</span>, afin de réaliser des sauvegardes complètes des serveurs et des données sur le stockage TrueNAS. Enfin, j'ai appliqué des <span class="gras">règles de sécurité</span> (pare-feu, chiffrement, bonnes pratiques <span class="gras">ANSSI</span>) et intégré des postes clients <span class="gras">Windows 11</span> dans le domaine.
+            <br><br>
+            Ce projet m'a permis de travailler sur une infrastructure réaliste de niveau professionnel, en combinant des outils comme <span class="gras">pfSense</span>, <span class="gras">TrueNAS</span> et <span class="gras">Windows Server</span>, tout en abordant des notions clés telles que la <span class="gras">virtualisation</span>, la <span class="gras">sécurité</span>, la <span class="gras">haute disponibilité</span> et l'<span class="gras">administration réseau</span>.
+        </p>
+
+        <div id="box_boutons_ap3">
+            <a href="#" id="bouton_cdc_ap3" class="bouton_doc">
+                <h1>Cahier des charges</h1>
+            </a>
+            <a href="#" id="bouton_doc_ap3" class="bouton_doc">
+                <h1>Documentation technique</h1>
+            </a>
+        </div>
+    </div>
+
+
+</body>
+
+
+</html>
