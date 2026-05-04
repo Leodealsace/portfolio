@@ -102,11 +102,29 @@
         </div>
 
         <p>
-            Description du projet AP4. Remplacez ce texte par le contenu de votre activité professionnelle AP4.
+            Le projet AP4 consiste à concevoir et déployer une <span class="gras">solution technique assurant le fonctionnement permanent et optimum des Centres Opérationnels Départementaux (COD)</span> de la Préfecture, tout en permettant un <span class="gras">accès distant sécurisé</span> pour les agents de terrain. L'objectif principal est d'améliorer la <span class="gras">résilience informatique</span> en cas de crise et de garantir la <span class="gras">continuité des outils métiers</span>.
             <br><br>
-            Vous pouvez détailler ici les objectifs, les technologies utilisées, les compétences acquises
-            et les résultats obtenus lors de cette activité professionnelle.
+            Dans ce cadre, j'ai réalisé une étude du <span class="gras">cahier des charges</span> afin de proposer une architecture répondant à des besoins de <span class="gras">haute disponibilité</span>. Cela inclut la mise en œuvre d'une <span class="gras">redondance des routeurs et des liens Internet</span> (2 routeurs, 2 accès WAN) pour pallier toute défaillance réseau. J'ai également planifié le projet via un <span class="gras">diagramme de Gantt</span> et une estimation budgétaire incluant les ressources matérielles et humaines.
+            <br><br>
+            Côté serveurs, j'ai déployé une infrastructure sous <span class="gras">Windows Server</span> intégrant deux <span class="gras">contrôleurs de domaine Active Directory</span> (principal et secondaire) pour une authentification centralisée et redondée. J'ai également mis en place un <span class="gras">serveur de messagerie électronique</span> et une solution de <span class="gras">téléphonie IP (IpBX)</span> avec déploiement de clients softphones, tous deux couplés à l'annuaire AD.
+            <br><br>
+            Pour la gestion opérationnelle, j'ai installé et configuré le logiciel open source <span class="gras">eBrigade</span>, permettant la gestion du personnel, des interventions et la création d'une <span class="gras">main courante informatisée</span>. Ce service est rendu accessible en interne (LAN) mais aussi via une <span class="gras">DMZ sécurisée</span> par des règles de pare-feu spécifiques pour un mode d'accès dégradé.
+            <br><br>
+            Afin de garantir la mobilité, j'ai configuré une solution <span class="gras">VPN Road Warrior (OpenVPN)</span>. Une fois la connexion établie avec les identifiants AD, les agents distants peuvent accéder de manière <span class="gras">chiffrée</span> aux outils de téléphonie, à la messagerie et aux ressources internes depuis le terrain.
+            <br><br>
+            Enfin, pour assurer le maintien en condition opérationnelle, j'ai mis en œuvre un <span class="gras">serveur de supervision et de monitoring</span>. Cet outil permet de surveiller la disponibilité des équipements critiques, d'historiser les pannes et d'envoyer des <span class="gras">alertes automatiques par mail</span> aux administrateurs en cas de dysfonctionnement.
+            <br><br>
+            Ce projet m'a permis de travailler sur une infrastructure à haute criticité, en combinant des technologies comme le <span class="gras">VPN nomade</span>, la <span class="gras">VoIP</span>, la <span class="gras">supervision</span> et la <span class="gras">sécurisation par DMZ</span>.
         </p>
+
+        <div id="box_boutons_ap4">
+            <a href="./assets/pdf/BIHLER_Leo-E6-Fiche_situation_professionnelle_2_BTS-SIO 2026.pdf" target="_blank" id="bouton_cdc_ap4" class="bouton_doc">
+                <h1>Cahier des charges</h1>
+            </a>
+            <a href="./assets/pdf/BIHLER_Leo-E6-Documentation_technique_situation_professionnelle_2_BTS-SIO-2026.pdf" target="_blank" id="bouton_doc_ap4" class="bouton_doc">
+                <h1>Documentation technique</h1>
+            </a>
+        </div>
     </div>
 
 
